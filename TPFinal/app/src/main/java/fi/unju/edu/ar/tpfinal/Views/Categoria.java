@@ -18,7 +18,6 @@ public class Categoria extends AppCompatActivity  implements CategoriaView {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_categoria);
-        
         nombre = (EditText) findViewById(R.id.txtNobreCate);
         categoriaPresenter = new CategoriaPresenterImpl(this);
     }
