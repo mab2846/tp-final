@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+
+    <item android:title="LISTA DE COMPRAS">
+        <menu>
+
+            <item
+                android:id="@+id/crearProd"
+                android:icon="@drawable/ic_add_circle"
+                android:title="Añadir Producto" />
+            <item
+                android:id="@+id/crearCate"
+                android:icon="@drawable/ic_add_circle_outline"
+                android:title="Añadir Categoria" />
+            <item
+                android:id="@+id/nav_share"
+                android:icon="@drawable/ic_menu_share"
+                android:title="Comprartir lista" />
+        </menu>
+    </item>
+
+</menu>
