@@ -11,6 +11,7 @@ import fi.unju.edu.ar.tpfinal.Interfaces.CategoriaView;
 import fi.unju.edu.ar.tpfinal.Presenters.CategoriaPresenterImpl;
 import fi.unju.edu.ar.tpfinal.R;
 
+//Clase de la vista Categoria
 public class Categoria extends AppCompatActivity  implements CategoriaView {
     private EditText nombre;
     private CategoriaPresenter categoriaPresenter;
@@ -18,7 +19,6 @@ public class Categoria extends AppCompatActivity  implements CategoriaView {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_categoria);
-        
         nombre = (EditText) findViewById(R.id.txtNobreCate);
         categoriaPresenter = new CategoriaPresenterImpl(this);
     }
